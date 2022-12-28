@@ -10,47 +10,50 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<div id="carouselExampleIndicators" class="carousel slide">
-		<div class="carousel-indicators">
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-				aria-current="true" aria-label="Slide 1"></button> 
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-				aria-label="Slide 2"></button>
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-				aria-label="Slide 3"></button>
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-				aria-label="Slide 4"></button>
-			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-				aria-label="Slide 5"></button>
+	<div id="myCarousel">
+		<div id="carouselExampleIndicators" class="carousel slide">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+					aria-current="true" aria-label="Slide 1"></button> 
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+					aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="active"
+					aria-label="Slide 3"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+					aria-label="Slide 4"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+					aria-label="Slide 5"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active first-slide">
+					<img src="flex img1.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item second-slide">
+					<img src="flex img2.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item third-slide">
+					<img src="flex img3.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item fourth-slide">
+					<img src="flex img4.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item fifth-slide">
+					<img src="flex img5.jpg" class="d-block w-100" alt="...">
+				</div>
+			</div>
+			<button class="left carousel-control-prev glyphicon-chevron-left" type="button" data-bs-target="#carouselExampleIndicators"
+				data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="right carousel-control-next glyphicon-chevron-right" type="button" data-bs-target="#carouselExampleIndicators"
+				data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
 		</div>
-		<div class="carousel-inner">
-			<div class="carousel-item active first-slide">
-				<img src="flex img1.jpg" class="d-block w-100" alt="...">
-			</div>
-			<div class="carousel-item second-slide">
-				<img src="flex img2.jpg" class="d-block w-100" alt="...">
-			</div>
-			<div class="carousel-item third-slide">
-				<img src="flex img3.jpg" class="d-block w-100" alt="...">
-			</div>
-			<div class="carousel-item fourth-slide">
-				<img src="flex img4.jpg" class="d-block w-100" alt="...">
-			</div>
-			<div class="carousel-item fifth-slide">
-				<img src="flex img5.jpg" class="d-block w-100" alt="...">
-			</div>
-		</div>
-		<button class="carousel-control-prev glyphicon-chevron-left" type="button" data-bs-target="#carouselExampleIndicators"
-			data-bs-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Previous</span>
-		</button>
-		<button class="carousel-control-next glyphicon-chevron-right" type="button" data-bs-target="#carouselExampleIndicators"
-			data-bs-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Next</span>
-		</button>
 	</div>
+	
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
 		integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
 		crossorigin="anonymous"></script>
